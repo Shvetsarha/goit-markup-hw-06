@@ -1165,6 +1165,10 @@ body {
     flex-direction: column;
     border: 0;
 }
+.svg-modal-form {
+    position: relative;
+    left: 0;
+}
 .modal-form-imput-desc {
     font-family: 'Roboto';
     font-style: normal;
@@ -1367,5 +1371,7 @@ body {
     background-color:var(--accent-color-hard) ;
 }
 /*===================================== / modal window ==============================*/
-
+.mobile-menu-burger-icon {
+    stroke: #2E2F42;
+  }
 
