@@ -276,13 +276,15 @@ button {
 .menu-mobile-list {
     margin-top: 56px;
 }
-.menu-mobile-list-link {
+.menu-mobile {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-top: 40px;
     color: #2E2F42;
+}
+.menu-mobile-list-link {
+    margin-top: 40px;
 }
 .menu-mobile-address-post {
     display: block;
@@ -331,6 +333,7 @@ button {
     background-color: var(--hero-light-accent);
     transition: background-color var(--transition), fill var(--transition);
 }
+
 /*============================= / mobil-menu ==========================================*/
 /*============================= /header ==========================================*/
 /*===========================body==========================*/
@@ -1371,7 +1374,4 @@ body {
     background-color:var(--accent-color-hard) ;
 }
 /*===================================== / modal window ==============================*/
-.mobile-menu-burger-icon {
-    stroke: #2E2F42;
-  }
 
