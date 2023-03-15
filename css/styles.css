@@ -247,10 +247,12 @@ button {
 }
 .header-burger {
     padding: 0;
+    border: none;
+    background-color: transparent;
 }
 .mobile-menu-burger-icon {
     stroke: #2E2F42;
-  }
+}
 
 /*============================= mobil-menu ==========================================*/
 .js-menu-container {
